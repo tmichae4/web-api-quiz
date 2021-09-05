@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Web-API-Quiz</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light"></nav>
+        <a class="nav-bar-brand" href="highscores.html">View highscores</a>
+        <ul class="nav-bar-nav ml-auto">
+            <li class="nav-item">
+                "time: "
+                <span id="seconds-remaining">0</span>
+            </li>
+        </ul>
+    <div class="container">
+        <div class="row">
+            <div class="offset-lg-3"></div>
+            <div  class="col-12 col-lg-6 main-content">
+                <div class="quiz-intro">
+                    <!--img class=header-ig" src="images"-->
+                    <h1>Quiz Challenge</h1>
+                    <h6>
+                        "Try to answer the following ten questions within the time limit. Keep in mind that incorrect answers will penalize your score by ten seconds."
+                        <br>
+                        "The buttons with the blue background are the correct buttons to press."
+
+                    </h6>
+                    <div class="button-container">
+                        <button id="btnStart" type="button" class="btn-primary">Start QUiz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offset-lg-3"></div>
+            
+        </div>
+    </div>
+    <script src="js/questions.js"></script>
+    <script src="js/highscores.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
